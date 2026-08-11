@@ -90,6 +90,14 @@ Outputs/
 
 Yuriy Sidorov
 
-Master's Programme in Sociology
+Master's student in Sociology (HSE St. Petersburg)
 
-HSE University, Saint Petersburg 2026
+Research interests:
+- Urban studies
+- GIS and spatial analysis
+- Environmental inequality
+- Urban green infrastructure
+
+Contacts:
+- Telegram: @mr_yura_mr
+- LinkedIn: [Yuriy Sidorov](https://www.linkedin.com/in/yury-sidorov-31b0a9354/)
