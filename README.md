@@ -44,19 +44,19 @@ The project combines GIS analysis, spatial accessibility assessment, and statist
 
 # H1. Green space provision differs across urban zones
 
-![H1](Outputs/Figures/h1_boxplot_green_per_capita_by_zone.png)
+<img src="Outputs/Figures/h1_boxplot_green_per_capita_by_zone.png" width=100%">
 
 Municipalities located in the outer belt have substantially higher green space provision per capita than municipalities located in the historical center and residential belts.
 
 # H2 Population density is negatively associated with green space provision
 
-![H2](Outputs/Figures/h2_density_vs_green_per_capita.png)
+<img src="Outputs/Figures/h2_density_vs_green_per_capita.png" width="100%">
 
 Population density demonstrates a strong negative relationship with green space provision per capita.
 
 # H3 Accessibility of green areas varies across urban zones
 
-![H3](Outputs/Figures/h3_accessibility_deficit_boxplot.png)
+<img src="Outputs/Figures/h3_accessibility_deficit_boxplot.png" width="100%">
 The largest accessibility deficits are observed in the outer and industrial belts, while municipalities in the historical center generally exhibit full accessibility to green areas within a 500-meter walking distance.
 
 ## Repository Structure
