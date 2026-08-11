@@ -1,158 +1,75 @@
-# \# GIS Analysis of the Distribution of Green Areas in St. Petersburg
+# GIS Analysis of the Distribution of Green Areas in St. Petersburg
 
-# 
+Master's thesis project completed at HSE University (Saint Petersburg).
 
-# Master's thesis project completed at HSE University (St. Petersburg).
+## Project Overview
 
-# 
+This study examines environmental inequality in the distribution and accessibility of urban green spaces across municipalities of Saint Petersburg.
 
-# \## Project Overview
+The project combines GIS analysis, spatial accessibility assessment, and statistical methods to investigate differences in green-space provision between municipal territories.
 
-# 
+## Research Questions
 
-# This study examines environmental inequality in the distribution and accessibility of urban green spaces across municipalities of Saint Petersburg.
+- Do municipalities differ in green-space provision depending on their territorial type?
+- Is population density associated with lower green-space availability?
+- Does accessibility to green spaces vary across municipalities?
+- Are municipalities with a higher share of children characterized by lower accessibility to green spaces?
 
-# 
+## Methods
 
-# The project combines GIS analysis, socio-demographic indicators, and statistical methods to assess how green-space provision varies across different types of urban territories and population groups.
+- GIS analysis (QGIS)
+- Spatial accessibility analysis
+- Buffer analysis (500 m and 1000 m)
+- Spearman correlation
+- Kruskal–Wallis test
+- Descriptive statistics
+- R programming
 
-# 
+## Municipal Typology
 
-# \## Research Questions
+![Municipal Typology](Outputs/Maps/mo_typology.png)
 
-# 
+## Distribution of Green Spaces
 
-# \- How does green-space provision differ across economic-geographical zones of Saint Petersburg?
+![Green Space Distribution](Outputs/Maps/green_spaces_distribution.png)
 
-# \- Is population density associated with lower green-space availability?
+## Main Findings
 
-# \- Does accessibility to green spaces differ across municipalities?
+- Significant differences in green-space provision were identified across territorial zones.
+- Population density is negatively associated with green-space availability.
+- Municipalities with a higher share of children tend to have lower accessibility to green spaces.
+- Peripheral municipalities generally demonstrate higher levels of green-space provision than central urban territories.
 
-# \- Are municipalities with a higher share of children characterized by lower accessibility to green spaces?
+## Repository Structure
 
-# 
+```text
+Data/
+├── raw/
+├── processed/
 
-# \## Data Sources
+R/
+├── 01_exploratory_analysis.R
+├── 02_hypothesis_1.R
+├── 03_hypothesis_2.R
+└── 04_hypothesis_3.R
 
-# 
+Outputs/
+├── Maps/
+├── Figures/
+└── Tables/
+```
 
-# \### GIS Data
+## Software
 
-# \- OpenStreetMap (green spaces)
+- QGIS
+- R
+- OpenStreetMap
+- Microsoft Excel
 
-# \- Saint Petersburg geospatial datasets
+## Author
 
-# \- Municipal boundaries
+Yuriy Sidorov
 
-# \- Residential building data
+Master's Programme in Sociology
 
-# 
-
-# \### Socio-demographic Data
-
-# \- Municipal statistics
-
-# \- Budget indicators
-
-# \- Population and density data
-
-# \- Income and social indicators
-
-# 
-
-# \## Methods
-
-# 
-
-# \### GIS Analysis
-
-# \- Spatial overlay analysis
-
-# \- Buffer analysis (500m and 1000m)
-
-# \- Accessibility assessment
-
-# \- Municipal-level aggregation
-
-# 
-
-# \### Statistical Analysis
-
-# \- Descriptive statistics
-
-# \- Spearman correlation analysis
-
-# \- Kruskal-Wallis tests
-
-# \- Dunn post-hoc comparisons
-
-# 
-
-# \## Repository Structure
-
-# 
-
-# ```text
-
-# Data/
-
-# ├── processed/
-
-# │   └── analysis\_dataset.xlsx
-
-# 
-
-# R/
-
-# ├── 01\_exploratory\_analysis.R
-
-# ├── 02\_hypothesis\_1.R
-
-# ├── 03\_hypothesis\_2.R
-
-# └── 04\_hypothesis\_3.R
-
-# ```
-
-# 
-
-# \## Key Findings
-
-# 
-
-# \- Significant differences in green-space provision were identified across territorial zones of Saint Petersburg.
-
-# \- Population density is associated with reduced green-space availability.
-
-# \- Accessibility to green spaces varies across municipalities.
-
-# \- Municipalities with a higher share of children tend to have lower accessibility to green spaces.
-
-# 
-
-# \## Tools
-
-# 
-
-# \- R
-
-# \- QGIS
-
-# \- GIS spatial analysis
-
-# \- Statistical analysis
-
-# 
-
-# \## Author
-
-# 
-
-# Yuriy Sidorov
-
-# 
-
-# Master's Programme: Modern Social Analysis  
-
-# HSE University, Saint Petersburg
-
+HSE University, Saint Petersburg 2026
